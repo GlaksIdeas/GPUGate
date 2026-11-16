@@ -1,0 +1,10 @@
+[project]
+name = "gpugate"
+version = "0.1.0"
+description = "A GPU traffic cop: background jobs wait for room instead of fighting your programs for video memory."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
